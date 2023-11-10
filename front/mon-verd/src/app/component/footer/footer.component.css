@@ -1,0 +1,15 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+      position: static; /* Cambia la posición a estática en pantallas pequeñas para que aparezca en el flujo normal de la página */
+    }
+  }

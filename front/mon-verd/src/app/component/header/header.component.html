@@ -1,0 +1,15 @@
+<header>
+    <mat-toolbar color="primary">
+        <span>My App</span>
+        <span class="spacer"></span>
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item routerLink="/">Inicio</button>
+          <button mat-menu-item routerLink="/servicios">Servicios</button>
+          <button mat-menu-item routerLink="/acerca-de">Acerca de nosotros</button>
+          <button mat-menu-item routerLink="/contacto">Contacto</button>
+        </mat-menu>
+      </mat-toolbar>
+</header>
